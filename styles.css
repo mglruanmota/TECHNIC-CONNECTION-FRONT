@@ -1,0 +1,116 @@
+/* NAV-BAR */
+.btn.entrar {
+  background-color: #282727;
+  border: 1px solid #20b2aa;
+}
+
+.btn.cadastrar {
+  color: #000000;
+  background-color: #20b2aa;
+
+}
+
+.navbar {
+  background-color: #282727;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.navbar a:hover {
+  background-color: #282727;
+  color: #24b2aa;
+}
+
+.navbar a.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn {
+  color: #282727;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* HOME */
+
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #282727;
+}
+
+h1 {
+  margin-left: 3em;
+  margin-top: 3cm;
+  color: white;
+  font-family: Times New Roman, Garamond, serif;
+  font-size: 70px;
+  line-height: 20px;
+
+}
+
+h2 {
+  font-size: 140px;
+  margin-left: 1em;
+  color: white;
+  margin-top: 1cm;
+}
+
+p {
+  color: white;
+  line-height: 1px;
+  margin-left: 10em;
+  font-size: 20px;
+  
+}
+
+.btn.solicite {
+  margin-bottom: ;
+  margin-left: 15em;
+  color: #282727;
+  background-color: #20b2aa;
+  color: #fff;
+
+}
+
+.btn.solicite :hover {
+  background-color: #282727;
+}
+
+
+.iphone {
+
+  position: fixed;
+  bottom: 14px;
+  right: 16px;
+  z-index: 100;
+  size: 40px;
+  margin-left: -3px;
+  margin-right: -18px;
+  margin-bottom: -20px;
+  width: 450px;
+
+}
